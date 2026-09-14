@@ -1,0 +1,38 @@
+{
+	"name": "ship-desk",
+	"private": true,
+	"version": "1.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc --noEmit && vite build",
+		"preview": "vite preview",
+		"format": "prettier --write \"src/**/*.{ts,tsx}\""
+	},
+	"dependencies": {
+		"@hookform/resolvers": "^5.2.2",
+		"@tanstack/react-query": "^5.90.2",
+		"@untitledui/icons": "^0.0.19",
+		"axios": "^1.12.2",
+		"dayjs": "^1.11.19",
+		"qs": "^6.14.0",
+		"react": "^19.2.4",
+		"react-dom": "^19.2.4",
+		"react-hook-form": "^7.64.0",
+		"react-router-dom": "^7.18.3",
+		"styled-components": "^6.1.19",
+		"zod": "^4.1.12"
+	},
+	"devDependencies": {
+		"@tanstack/react-query-devtools": "^5.90.2",
+		"@trivago/prettier-plugin-sort-imports": "^5.2.2",
+		"@types/node": "^26.5.1",
+		"@types/qs": "^6.14.0",
+		"@types/react": "^19.2.2",
+		"@types/react-dom": "^19.2.1",
+		"@vitejs/plugin-react": "^4.3.4",
+		"prettier": "^3.6.2",
+		"typescript": "^5.6.3",
+		"vite": "^5.4.11"
+	}
+}
